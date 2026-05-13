@@ -7,6 +7,7 @@ namespace DotoList.Controllers
     [ApiController]
     public class UserMsgController : ControllerBase
     {
-
+       
+        
     }
 }
