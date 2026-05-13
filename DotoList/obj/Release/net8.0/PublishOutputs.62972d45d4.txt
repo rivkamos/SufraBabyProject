@@ -1,0 +1,11 @@
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\DotoList.exe
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\appsettings.Development.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\appsettings.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\DotoList.dll
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\DotoList.deps.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\DotoList.runtimeconfig.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\DotoList.pdb
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\Microsoft.OpenApi.dll
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\Swashbuckle.AspNetCore.Swagger.dll
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\Swashbuckle.AspNetCore.SwaggerGen.dll
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,6 @@
+@DotoList_HostAddress = http://localhost:5038
+
+GET {{DotoList_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

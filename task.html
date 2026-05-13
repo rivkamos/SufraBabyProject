@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>כותרת הדף</title>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>שלום עולם!</h1>
+    <div id="api-data"></div>
+    <button onclick="fetchData()">get api data</button>
+  </body>
+
+  <script>
+    //fetchData();
+
+    function fetchData() {
+      axios
+        //.get("https://jsonplaceholder.typicode.com/todos/1")
+        .get("https://localhost:7254/api/Todo")
+        .then(function (response) {
+            debugger
+          // טיפול בהצלחה
+         const container = document.getElementById('api-data');
+         container.innerHTML = response.data[0];
+    //             container.innerHTML = `
+    //   <div class="card">
+    //     <h2>${response.data.title}</h2>
+    //     <p>${response.data.userId}</p>
+    //     <p>${response.data.completed}</p>
+    //   </div>
+    // `;
+
+        })
+        .catch(function (error) {
+          // טיפול בשגיאה
+          console.log(error);
+        });
+    }
+  </script>
+</html>
