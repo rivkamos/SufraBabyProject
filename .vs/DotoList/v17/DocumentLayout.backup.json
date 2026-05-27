@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\controllers\\babycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\controllers\\babycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\models\\baby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\models\\baby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\models\\iactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\models\\iactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|t:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\dotolist\\dotolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3DC797-9930-4FE9-9728-D93FD163062C}|DotoList\\DotoList.csproj|solutionrelative:dotolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IActions.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\IActions.cs",
+              "RelativeDocumentMoniker": "DotoList\\Models\\IActions.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\IActions.cs",
+              "RelativeToolTip": "DotoList\\Models\\IActions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T15:39:11.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "DotoList\\Models\\Person.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Person.cs",
+              "RelativeToolTip": "DotoList\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:40:13.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "DotoList\\Models\\Doctor.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Doctor.cs",
+              "RelativeToolTip": "DotoList\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:31:33.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Nurse.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Nurse.cs",
+              "RelativeDocumentMoniker": "DotoList\\Models\\Nurse.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Nurse.cs",
+              "RelativeToolTip": "DotoList\\Models\\Nurse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:31:12.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BabyController.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Controllers\\BabyController.cs",
+              "RelativeDocumentMoniker": "DotoList\\Controllers\\BabyController.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Controllers\\BabyController.cs",
+              "RelativeToolTip": "DotoList\\Controllers\\BabyController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:49:08.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Baby.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Baby.cs",
+              "RelativeDocumentMoniker": "DotoList\\Models\\Baby.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Models\\Baby.cs",
+              "RelativeToolTip": "DotoList\\Models\\Baby.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:45:34.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Program.cs",
+              "RelativeDocumentMoniker": "DotoList\\Program.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Program.cs",
+              "RelativeToolTip": "DotoList\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T19:03:50.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "DotoList\\Controllers\\TodoController.cs",
+              "ToolTip": "T:\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4\\\u05E9\u05E0\u05D4 \u05D0 \u05EA\u05E9\u05E4\u05D5\\net core\\\u05DE\u05D5\u05E8\u05D4\\DotoList\\DotoList\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "DotoList\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T17:43:23.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
