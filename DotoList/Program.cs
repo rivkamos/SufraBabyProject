@@ -1,4 +1,5 @@
 using DotoList.Interfaces;
+using DotoList.Models;
 using DotoList.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //כאן מזריקדים את התלות של הממשק
 builder.Services.AddScoped<IMsg, SmsService>();
-//builder.Services.AddSingleton<IMsg, SmsService>();
+builder.Services.AddScoped<IBabyService, BabyService>();
+builder.Services.AddSingleton<DataContext>();
 //builder.Services.AddTransient<IMsg, SmsService>();
 
 // Add CORS services and define a policy

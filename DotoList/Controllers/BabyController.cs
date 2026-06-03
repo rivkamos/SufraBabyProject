@@ -1,4 +1,5 @@
 ﻿
+using DotoList.Interfaces;
 using DotoList.models;
 using DotoList.Models;
 using Microsoft.AspNetCore.Http;
@@ -10,12 +11,17 @@ namespace DotoList.Controllers
     [ApiController]
     public class BabyController : ControllerBase
     {
-        
-        
+        private readonly IBabyService _babyService;
+
+        public BabyController(IBabyService service)
+        {
+            _babyService = service;
+        }
+
         [HttpGet] // GET משמשת לקבלת מידע מהשרת
         public ActionResult<List<Baby>> Get()
         {
-            return DataContext.babys;
+            return _babyService.Get();
         }
 
         [HttpGet("GetBaby")]
@@ -25,7 +31,7 @@ namespace DotoList.Controllers
             {
                 return NotFound();
             }
-            return DataContext.babys[id];
+            return _babyService.GetBaby(id);
         }
 
         [HttpPost]
@@ -36,14 +42,14 @@ namespace DotoList.Controllers
             }
 
 
-            DataContext.babys.Add(baby);
+            _babyService.Add(baby);
             return Created();
         }
 
         [HttpGet("Dup")]
         public int Dup(int x , int y)
         {
-            return x / y;
+            return _babyService.Dup(x,y);
         }
     }
 }

@@ -9,33 +9,38 @@ namespace DotoList.Controllers
     [ApiController]
     public class TodoController : ControllerBase
     {
-        
+        private readonly DataContext _context;
+
+        public TodoController(DataContext context)
+        {
+            _context = context;
+        }
 
         // GET: api/<TodoController>
         [HttpGet]
         public List<string> Get()
         {
-            return DataContext.allTask;
+            return _context.allTask;
         }
 
         [HttpGet("GetOneItem")]
         public string Get([FromQuery] int? index, string? name, string? level)
         {
-            if(index > DataContext.allTask.Count - 1 || !index.HasValue)
+            if(index > _context.allTask.Count - 1 || !index.HasValue)
             {
                 return "אין כזאת משימה";
             }
-            return DataContext.allTask[index.Value];
+            return _context.allTask[index.Value];
         }
 
         [HttpGet("{index}")]
         public string GetTask(int index)
         {
-            if (index > DataContext.allTask.Count - 1)
+            if (index > _context.allTask.Count - 1)
             {
                 return "אין כזאת משימה";
             }
-            return DataContext.allTask[index];
+            return _context.allTask[index];
         }
 
         [HttpGet("GetTask2/{index}/username/{name}")]
@@ -55,7 +60,7 @@ namespace DotoList.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            DataContext.allTask.Add(value);
+            _context.allTask.Add(value);
         }
     }
 

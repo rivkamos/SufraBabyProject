@@ -17,5 +17,9 @@ namespace DotoList.models
             Id2 = index2++;
         }
 
+        public void print()
+        {
+
+        }
     }
 }
