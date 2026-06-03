@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DotoList.Interfaces;
+using DotoList.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotoList.Controllers
@@ -7,7 +9,27 @@ namespace DotoList.Controllers
     [ApiController]
     public class UserMsgController : ControllerBase
     {
-       
-        
+        private readonly IMsg _msgService;
+
+        public UserMsgController(IMsg service)
+        {
+            _msgService = service;
+            //IMsg[] msg = new IMsg[2];
+            //msg[0] = new SmsService();
+            //msg[1] = new EmailService();
+
+        }
+
+        [HttpGet("MsgLogin")]
+        public string MsgLogin(string id)
+        {
+            return _msgService.Login(id);
+        }
+
+        [HttpGet("MsgLogout")]
+        public string MsgLogout(string id)
+        {
+            return _msgService.Logout(id);
+        }
     }
 }

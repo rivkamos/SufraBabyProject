@@ -40,7 +40,7 @@ namespace DotoList.Controllers
             return Created();
         }
 
-        [HttpGet]
+        [HttpGet("Dup")]
         public int Dup(int x , int y)
         {
             return x / y;

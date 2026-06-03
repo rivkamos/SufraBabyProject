@@ -1,4 +1,6 @@
 using DotoList.Controllers;
+using DotoList.Interfaces;
+using DotoList.Services;
 
 namespace TestProject
 {
@@ -18,7 +20,15 @@ namespace TestProject
             Assert.Equal(res, 0);
         }
 
-
+        [Fact]
+        public void Login_withoutid_sms()
+        {
+            //AAA
+            string x = "";
+            var userMsgController = new UserMsgController(new SmsService());
+            var res = userMsgController.MsgLogin(x);
+            Assert.IsType<string>(res);
+        }
 
     }
 }

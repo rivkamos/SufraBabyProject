@@ -116,3 +116,5 @@ T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestPr
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestProject\obj\Debug\net8.0\TestProject.pdb
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestProject\obj\Debug\net8.0\ref\TestProject.dll
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestProject\bin\Debug\net8.0\DotoList.staticwebassets.endpoints.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json

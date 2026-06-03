@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "lCDEeFlr9pb45QxFRM5UYn0llEOTQydpifcv0NccU9M=",
+  "Hash": "GQM/0L9nN7XKdt2yH9/471IDe4BPAoxpu6Ga9v7w8y4=",
   "Source": "DotoList",
   "BasePath": "_content/DotoList",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

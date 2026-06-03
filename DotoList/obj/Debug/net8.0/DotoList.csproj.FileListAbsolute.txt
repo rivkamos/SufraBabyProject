@@ -37,3 +37,8 @@ T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoLi
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\bin\Debug\net8.0\out\DotoList.deps.json
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\bin\Debug\net8.0\out\DotoList.runtimeconfig.json
 T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\bin\Debug\net8.0\out\DotoList.staticwebassets.endpoints.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\bin\Debug\net8.0\DotoList.staticwebassets.endpoints.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\obj\Debug\net8.0\DotoList.sourcelink.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\obj\Debug\net8.0\staticwebassets\msbuild.DotoList.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+T:\Teachers\שנה א\net Core ריקי מושקוביץ\project\DotoList\DotoList\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
