@@ -1,6 +1,4 @@
-﻿using DotoList.models;
-
-namespace DotoList.Models
+﻿namespace TodoListCore.Models
 {
     public class DataContext
     {

@@ -1,5 +1,4 @@
-﻿
-namespace DotoList.models
+﻿namespace TodoListCore.Models
 {
     public class Baby
     {

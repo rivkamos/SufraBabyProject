@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotoList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+924b52f8dd87706cee975d9c258950a3a1a436b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88973f7aed10297899bd1566833621fcf9d14791")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotoList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotoList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

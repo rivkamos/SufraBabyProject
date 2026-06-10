@@ -1,9 +1,9 @@
-﻿using DotoList.Interfaces;
-using DotoList.Services;
+﻿using DotoList.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TodoListCore.Services;
 
-namespace DotoList.Controllers
+namespace DotoListAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

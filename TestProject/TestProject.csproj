@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotoList\DotoList.csproj" />
+    <ProjectReference Include="..\DotoList\DotoListAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>

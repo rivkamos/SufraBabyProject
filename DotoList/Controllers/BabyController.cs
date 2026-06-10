@@ -1,19 +1,18 @@
-﻿
-using DotoList.Interfaces;
-using DotoList.models;
+﻿using DotoList.Interfaces;
 using DotoList.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TodoListCore.Models;
 
-namespace DotoList.Controllers
+namespace DotoListAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class BabyController : ControllerBase
     {
-        private readonly IBabyService _babyService;
+        private readonly IBabyRepository _babyService;
 
-        public BabyController(IBabyService service)
+        public BabyController(IBabyRepository service)
         {
             _babyService = service;
         }

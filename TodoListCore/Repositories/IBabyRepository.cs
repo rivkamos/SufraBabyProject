@@ -1,9 +1,9 @@
-﻿using DotoList.models;
-using DotoList.Models;
+﻿
+using TodoListCore.Models;
 
 namespace DotoList.Interfaces
 {
-    public interface IBabyService
+    public interface IBabyRepository
     {
         public List<Baby> Get();
 
@@ -13,5 +13,6 @@ namespace DotoList.Interfaces
 
         public List<Baby> GetBabyByName(string str);
         public int Dup(int x, int y);
+        void UpdateBaby(Baby baby);
     }
 }

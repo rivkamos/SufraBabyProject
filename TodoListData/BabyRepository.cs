@@ -1,16 +1,18 @@
 ﻿using DotoList.Interfaces;
-using DotoList.models;
-using DotoList.Models;
-using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using TodoListCore.Models;
 
-namespace DotoList.Services
+namespace TodoListData
 {
-    public class BabyService : IBabyService
+    public class BabyRepository : IBabyRepository
     {
-       private readonly DataContext _context;
+        private readonly DataContext _context;
 
-        public BabyService(DataContext context)
+        public BabyRepository(DataContext context)
         {
             _context = context;
         }
@@ -22,17 +24,17 @@ namespace DotoList.Services
 
         public Baby GetBaby(int id)
         {
-        //    foreach (var w in_context.babys)
-        //    {
-        // if(w.Name == str)
-        //    }
+            //    foreach (var w in_context.babys)
+            //    {
+            // if(w.Name == str)
+            //    }
 
             return _context.babys.FirstOrDefault(f => f.Id == id);
         }
 
         public void Add(Baby baby)
         {
-           _context.babys.Add(baby);
+            _context.babys.Add(baby);
         }
 
         public List<Baby> GetBabyByName(string str)
@@ -44,8 +46,9 @@ namespace DotoList.Services
         public void UpdateBaby(Baby baby)
         {
             var currentBaby = _context.babys.FirstOrDefault(w => w.Id == baby.Id);
-            
-            if (currentBaby != null) {
+
+            if (currentBaby != null)
+            {
                 currentBaby = baby;
             }
 

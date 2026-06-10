@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TodoListCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TodoListCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoListCore.dll": {}
+        }
+      },
+      "TodoListServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TodoListCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoListServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoListServices.dll": {}
+        }
       }
     }
   },
@@ -420,11 +443,23 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TodoListCore/1.0.0": {
+      "type": "project",
+      "path": "../TodoListCore/TodoListCore.csproj",
+      "msbuildProject": "../TodoListCore/TodoListCore.csproj"
+    },
+    "TodoListServices/1.0.0": {
+      "type": "project",
+      "path": "../TodoListServices/TodoListServices.csproj",
+      "msbuildProject": "../TodoListServices/TodoListServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "TodoListCore >= 1.0.0",
+      "TodoListServices >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -434,9 +469,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoList.csproj",
-      "projectName": "DotoList",
-      "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoList.csproj",
+      "projectUniqueName": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoListAPI.csproj",
+      "projectName": "DotoListAPI",
+      "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoListAPI.csproj",
       "packagesPath": "C:\\Users\\hitmachut\\.nuget\\packages\\",
       "outputPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\obj\\",
       "projectStyle": "PackageReference",
@@ -459,7 +494,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\TodoListCore\\TodoListCore.csproj": {
+              "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\TodoListCore\\TodoListCore.csproj"
+            },
+            "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\TodoListServices\\TodoListServices.csproj": {
+              "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\TodoListServices\\TodoListServices.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

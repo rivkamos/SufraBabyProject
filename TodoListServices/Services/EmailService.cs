@@ -1,7 +1,7 @@
-﻿using DotoList.Interfaces;
-using System.Reflection.Metadata.Ecma335;
+﻿using System.Reflection.Metadata.Ecma335;
+using TodoListCore.Services;
 
-namespace DotoList.Services
+namespace TodoListServices.Services
 {
     public class EmailService : IMsg
     {

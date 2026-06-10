@@ -1,9 +1,9 @@
-﻿using DotoList.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using TodoListCore.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace DotoList.Controllers
+namespace DotoListAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

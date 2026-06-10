@@ -1,4 +1,4 @@
-﻿namespace DotoList.Interfaces
+﻿namespace TodoListCore.Services
 {
     public interface IMsg
     {

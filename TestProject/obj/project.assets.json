@@ -1794,21 +1794,46 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "DotoList/1.0.0": {
+      "DotoListAPI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "TodoListCore": "1.0.0",
+          "TodoListServices": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DotoList.dll": {}
+          "bin/placeholder/DotoListAPI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DotoList.dll": {}
+          "bin/placeholder/DotoListAPI.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TodoListCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TodoListCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoListCore.dll": {}
+        }
+      },
+      "TodoListServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TodoListCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoListServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoListServices.dll": {}
+        }
       }
     }
   },
@@ -5928,15 +5953,25 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "DotoList/1.0.0": {
+    "DotoListAPI/1.0.0": {
       "type": "project",
-      "path": "../DotoList/DotoList.csproj",
-      "msbuildProject": "../DotoList/DotoList.csproj"
+      "path": "../DotoList/DotoListAPI.csproj",
+      "msbuildProject": "../DotoList/DotoListAPI.csproj"
+    },
+    "TodoListCore/1.0.0": {
+      "type": "project",
+      "path": "../TodoListCore/TodoListCore.csproj",
+      "msbuildProject": "../TodoListCore/TodoListCore.csproj"
+    },
+    "TodoListServices/1.0.0": {
+      "type": "project",
+      "path": "../TodoListServices/TodoListServices.csproj",
+      "msbuildProject": "../TodoListServices/TodoListServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DotoList >= 1.0.0",
+      "DotoListAPI >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -5976,8 +6011,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoList.csproj": {
-              "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoList.csproj"
+            "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoListAPI.csproj": {
+              "projectPath": "T:\\Teachers\\שנה א\\net Core ריקי מושקוביץ\\project\\DotoList\\DotoList\\DotoListAPI.csproj"
             }
           }
         }

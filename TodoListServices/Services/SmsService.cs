@@ -1,6 +1,6 @@
-﻿using DotoList.Interfaces;
+﻿using TodoListCore.Services;
 
-namespace DotoList.Services
+namespace TodoListServices.Services
 {
     public class SmsService : IMsg
     {
